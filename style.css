@@ -1,0 +1,50 @@
+body {
+    background: rgb(207,
+            206,
+            206);
+}
+
+.quiz {
+    border: 0px solid black;
+    border-radius: 10px;
+    margin: 10px 300px 10px 300px;
+    background: rgb(250,
+            243,
+            243);
+    filter: drop-shadow(0 5px 3px black);
+}
+
+.quiz-form {
+    padding: 50px 0;
+    margin: 0 80px;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.options {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+hr {
+    width: 600px;
+    margin-left: -1px;
+    text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+    .quiz-form {
+        margin: 0;
+    }
+}
